@@ -1,0 +1,1628 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Jessica Snelling</Author>
+  <LastAuthor>Jessica Snelling</LastAuthor>
+  <Created>2013-08-09T13:14:06Z</Created>
+  <LastSaved>2013-08-09T13:18:38Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8190</WindowHeight>
+  <WindowWidth>16380</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>863</TabRatio>
+  <Date1904/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Lucida Sans" x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Lucida Sans" x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="Short Date"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="Short Time"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s22">
+   <NumberFormat ss:Format="dd/mm/yy"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Lucida Sans" x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Lucida Sans Typewriter" x:Family="Modern" ss:Size="12"
+    ss:Bold="1"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Lucida Sans" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Lucida Sans" x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Lucida Sans" x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="132" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s16" ss:DefaultColumnWidth="64.5">
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="23.25"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="49.5"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="48.75"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="55.5"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="53.25"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="279.75"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="55.5"/>
+   <Column ss:StyleID="s16" ss:Width="51.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="71.0625">
+    <Cell ss:MergeAcross="7" ss:StyleID="s30"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B>CITS3200 Project Billed Hours Record for Jessica Catherine Elizabeth Snelling&#10;</B><Font>Each time you do some work on the project, note the week number, start and end date and hour, plus a brief description of the activity. At the end of each week send a copy of the sheet as it currently stands to your group's manager for recording on the group TimeSheet. Date in the form DD/MM/YY and time as XX:YY (24hr clock)</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Wk</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s29"><Data ss:Type="String">Begin</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s29"><Data ss:Type="String">End</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s31"><Data ss:Type="String">Activity</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Session&#10;Hours</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s32"><Data ss:Type="String">Total&#10;Hours</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">2013-08-04T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">1904-01-01T20:40:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">2013-08-04T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">1904-01-01T22:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Researched noise apps already on the market, found articles related to how noise affects restaurant ratings, listed initial requirements of the app design. </Data></Cell>
+    <Cell ss:StyleID="s21" ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="Number">1.3333333333139308</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1]&lt;&gt;&quot;ERROR&quot;,RC[-1])"><Data
+      ss:Type="Number">1.3333333333139308</Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">1.3333333333139308</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">2013-08-07T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">1904-01-01T18:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">2013-08-07T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">1904-01-01T19:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Group meeting regarding client meeting on Friday.</Data></Cell>
+    <Cell ss:StyleID="s21" ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="Number">0.99999999994179234</Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="Number">2.3333333332557231</Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0.99999999994179234</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Wk</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s29"><Data ss:Type="String">Begin</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s29"><Data ss:Type="String">End</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Activity</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Session&#10;Hours</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Total&#10;Hours</Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Error">#VALUE!</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-3]C&lt;&gt;&quot; &quot;,R[-3]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-3]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s19"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Wk</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s29"><Data ss:Type="String">Begin</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s29"><Data ss:Type="String">End</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Activity</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Session&#10;Hours</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Total&#10;Hours</Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Error">#VALUE!</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-3]C&lt;&gt;&quot; &quot;,R[-3]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-3]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Wk</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s29"><Data ss:Type="String">Begin</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s29"><Data ss:Type="String">End</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Activity</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Session&#10;Hours</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s28"><Data ss:Type="String">Total&#10;Hours</Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Error">#VALUE!</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s22"/>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-3]C&lt;&gt;&quot; &quot;,R[-3]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-3]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s21"
+     ss:Formula="=IF(RC[2]&gt;0,RC[2],IF(RC[2]=0,&quot; &quot;,&quot;ERROR&quot;))"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-1]&lt;&gt;&quot; &quot;,RC[-1]&lt;&gt;&quot;ERROR&quot;,R[-1]C&lt;&gt;&quot; &quot;,R[-1]C&lt;&gt;&quot;ERROR&quot;),RC[-1]+R[-1]C,&quot; &quot;)"><Data
+      ss:Type="String"> </Data></Cell>
+    <Cell ss:Formula="=((RC[-5]+RC[-4])-(RC[-7]+RC[-6]))*24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.51180555555555551"/>
+    <Footer x:Margin="0.51180555555555551"/>
+    <PageMargins x:Bottom="0.98402777777777772" x:Left="0.74791666666666667"
+     x:Right="0.74791666666666667" x:Top="0.98402777777777772"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Zoom>125</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555551"/>
+    <Footer x:Margin="0.51180555555555551"/>
+    <PageMargins x:Bottom="0.98402777777777772" x:Left="0.74791666666666667"
+     x:Right="0.74791666666666667" x:Top="0.98402777777777772"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555551"/>
+    <Footer x:Margin="0.51180555555555551"/>
+    <PageMargins x:Bottom="0.98402777777777772" x:Left="0.74791666666666667"
+     x:Right="0.74791666666666667" x:Top="0.98402777777777772"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
